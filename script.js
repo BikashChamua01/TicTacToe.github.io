@@ -91,9 +91,10 @@ Array.from(boxes).forEach((e) => {
                 document.getElementsByClassName('info')[0].innerHTML = "";
             }
             else {
-                document.getElementsByClassName('info')[0].innerHTML = `TURN FOR: ${turn}`;
+                
                 boxtext.innerHTML = turn;
                 turn = changeTurn();
+                document.getElementsByClassName('info')[0].innerHTML = `TURN FOR: ${turn}`;
                 click_audio.play();
                 checkWin();
             }

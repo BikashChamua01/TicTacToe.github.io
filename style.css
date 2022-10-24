@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Freehand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Roboto+Slab&family=Source+Serif+Pro:ital,wght@1,700&display=swap');
+/* font-family: 'Bree Serif', serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Source Serif Pro', serif; */
+
 /* font-family: 'Fasthand', cursive;
 font-family: 'Freehand', cursive; */
 *
@@ -8,7 +13,7 @@ font-family: 'Freehand', cursive; */
 }
 .container
 {
-    background: url(/images/bg1.jpg);
+    background: url(.../images/bg1.jpg);
     background: no-repeat center ;
     background-size: cover;
 }
@@ -102,8 +107,22 @@ nav ul li
 }
 .info 
 {
-    font-size: larger;
+    font-size: 45px;
+    font-weight: 900;
+    color: rgb(247, 12, 235);
+    font-family: 'Bree Serif', serif;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.details
+{
+    padding-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
 }
 
 /* ine */
