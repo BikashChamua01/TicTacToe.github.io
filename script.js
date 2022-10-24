@@ -1,7 +1,7 @@
 console.log("Eelcome to tic tac toe")
-let music = new Audio(".../audio/gameover.wav")
-let click_audio = new Audio(".../audio/buttonClick.wav")
-let gameover = new Audio(".../audio/clapping.wav")
+let music = new Audio("../audio/gameover.wav")
+let click_audio = new Audio("../audio/buttonClick.wav")
+let gameover = new Audio("../audio/clapping.wav")
 let turn = "X";
 let someone_wins = false;
 let count = 0;
@@ -61,7 +61,7 @@ const checkWin = () => {
             gameover.play();
 
             // body background chamge on win
-            document.body.style.backgroundImage = "url(/gif/celebration.gif)"
+            document.body.style.backgroundImage = "url(../gif/celebration.gif)"
             // line drawing
             // displayLine(wins,boxtext);
         }
