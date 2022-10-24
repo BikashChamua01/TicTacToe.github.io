@@ -52,7 +52,7 @@ const checkWin = () => {
         if (boxtext[e[0]].innerHTML === boxtext[e[1]].innerHTML && boxtext[e[0]].innerHTML === boxtext[e[2]].innerHTML && boxtext[e[0]].innerHTML !== "") {
             // alert(`game ended!${boxtext[e[0]].innerHTML}has won` )
             someone_wins = true;
-            document.querySelector(".info").innerHTML += `<br>${boxtext[e[0]].innerHTML} has won`;
+            document.querySelector(".info").innerHTML = `<br>${boxtext[e[0]].innerHTML} has won`;
             // Image showing
             let img = document.getElementsByTagName('img')[0];
             img.style.display = "block"
