@@ -61,7 +61,7 @@ const checkWin = () => {
             gameover.play();
 
             // body background chamge on win
-            document.body.style.backgroundImage = "url(/gif/celebration.gif)"
+            document.body.style.backgroundImage = "url(gif/celebration.gif)"
             // line drawing
             // displayLine(wins,boxtext);
         }
