@@ -25,7 +25,7 @@ nav{
     background-color: rgb(178, 5, 178);
     color: white;
     height: fit-content;
-    padding: 2vh auto;
+    padding: 1vh auto;
     font-family: 'Freehand', cursive;
     font-size: 5.5vh;
     display: flex;
@@ -113,7 +113,7 @@ nav ul li
 }
 .details
 {
-    padding-top: 5px;
+    padding-top: 4px;
     display: flex;
     align-items: center;
     justify-content: center;
