@@ -47,7 +47,7 @@ nav ul li
     align-items: center;
     justify-content: center;
     position: relative;
-    top: 5vh;
+    top: 3vh;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -113,7 +113,7 @@ nav ul li
 }
 .details
 {
-    padding-top: 10px;
+    padding-top: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
