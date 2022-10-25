@@ -124,6 +124,14 @@ nav ul li
     justify-content: center;
     flex-direction: column-reverse;
 }
+@media screen and(max-width:678px)
+{
+    .info
+    {
+        font-size: 30px;
+        font-weight: 600;
+    }
+}
 
 /* ine */
 .line
